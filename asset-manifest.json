@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fayaw456/Advertisment-web.git/static/css/main.f436e715.css",
+    "main.js": "/fayaw456/Advertisment-web.git/static/js/main.a549acf1.js",
+    "static/js/787.92940620.chunk.js": "/fayaw456/Advertisment-web.git/static/js/787.92940620.chunk.js",
+    "index.html": "/fayaw456/Advertisment-web.git/index.html",
+    "main.f436e715.css.map": "/fayaw456/Advertisment-web.git/static/css/main.f436e715.css.map",
+    "main.a549acf1.js.map": "/fayaw456/Advertisment-web.git/static/js/main.a549acf1.js.map",
+    "787.92940620.chunk.js.map": "/fayaw456/Advertisment-web.git/static/js/787.92940620.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f436e715.css",
+    "static/js/main.a549acf1.js"
+  ]
+}
