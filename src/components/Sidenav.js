@@ -17,6 +17,7 @@ const Sidenav = (props) => {
     if (inactive) {
       document.querySelectorAll('.sub-menu-item').forEach((el) => { el.classList.remove("active"); });
     }
+    props.onCollapse(inactive);
   }, [inactive]);
 
   return (

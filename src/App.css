@@ -69,6 +69,7 @@ background: whitesmoke;
 }
 
 .sidenav .main-menu .menu-item{
+ 
   color: whitesmoke;
   text-decoration:none;
   font-size: 20px;
@@ -76,7 +77,8 @@ background: whitesmoke;
   font-weight: 600;
 }
 
-.sidenav .main-menu .menu-item span{
+.sidenav .main-menu .menu-item span:hover{
+  background-color:burlywood;
   position: absolute;
   display: inline-block;
   line-height: 40px;
@@ -107,11 +109,13 @@ background: whitesmoke;
   transition: max-height .2s ease-in;
   
 }
+
 .sidenav .main-menu .sub-menu-item.active{
   max-height: 200px;
 }
 
-.sidenav .main-menu .sub-menu-item a{
+.sidenav .main-menu .sub-menu-item a:hover{
+  background-color: burlywood;
   display: block;
   margin: 5px 0;
   font-size: 20px;
@@ -162,5 +166,11 @@ background: whitesmoke;
     
 }
 .container{
-  margin-left: 300px;
+  margin-left: 150px;
+  padding: 115px;
+  transition: marign-left .2s ease-in;
+}
+
+.container.inactive{
+  margin-left: 50px;
 }
